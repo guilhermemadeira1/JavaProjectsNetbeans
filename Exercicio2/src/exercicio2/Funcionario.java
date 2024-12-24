@@ -6,7 +6,7 @@ public class Funcionario{
     private double salario;
         
     Funcionario(int matricula, String nome, int salario) {
-        //método construtor de objetos não pode ficar vazio, então adcionamos valores default(padrão) ou adicionar valores no parâmetro
+        //no método construtor de objetos adicionamos valores de parametro e opcionalmente valores default(padrão) pros atributos
         this.matricula = matricula;
         this.nome = nome;
         this.salario = salario;
